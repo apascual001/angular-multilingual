@@ -1,0 +1,8 @@
++ @angular/common@9.0.7
+added 1 package from 1 contributor and audited 14676 packages in 12.588s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 23 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
