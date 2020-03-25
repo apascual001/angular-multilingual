@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'multingual-angularapp'`, () => {
+  it(`should have as title 'tutorial-angular7-multilenguaje'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('multingual-angularapp');
+    expect(app.title).toEqual('tutorial-angular7-multilenguaje');
   });
 
-  it('should render title', () => {
+  it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('multingual-angularapp app is running!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to tutorial-angular7-multilenguaje!');
   });
 });
