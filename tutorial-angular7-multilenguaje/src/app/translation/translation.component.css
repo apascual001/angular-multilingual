@@ -27,6 +27,10 @@ button {
     background: rgb(38, 156, 177);
     font-size: 24px;
   }
+  button.active{
+    background: rgb(36, 100, 111);
+  }
     .contenedor-botones.active {
         background: rgb(250, 102, 23);
       }
+
